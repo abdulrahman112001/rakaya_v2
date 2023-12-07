@@ -87,18 +87,7 @@ export function Navbar() {
                     شركائنا
                   </Link>
                 </li>
-                <li className={`nav-item `}>
-                  <Link
-                    href="/test"
-                    className={`font-bold ${
-                      router.pathname === "/partners"
-                        ? "text-primary"
-                        : " text-secondary"
-                    } hover:text-[#c9b171]`}
-                  >
-                    test
-                  </Link>
-                </li>
+       
                 <li className={`nav-item `}>
                   <Link
                     href="/"
