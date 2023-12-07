@@ -1,0 +1,435 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* arabic */
+@font-face {
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cairo/v28/SLXVc1nY6HkvangtZmpQdkhzfH5lkSscQyyS8pg_RWH1vCk.woff2)
+    format("woff2");
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0898-08E1,
+    U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF,
+    U+FE70-FE74, U+FE76-FEFC;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cairo/v28/SLXVc1nY6HkvangtZmpQdkhzfH5lkSscSCyS8pg_RWH1vCk.woff2)
+    format("woff2");
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
+    U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cairo/v28/SLXVc1nY6HkvangtZmpQdkhzfH5lkSscRiyS8pg_RWH1.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* arabic */
+@font-face {
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cairo/v28/SLXVc1nY6HkvangtZmpQdkhzfH5lkSscQyyS8pg_RWH1vCk.woff2)
+    format("woff2");
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0898-08E1,
+    U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF,
+    U+FE70-FE74, U+FE76-FEFC;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cairo/v28/SLXVc1nY6HkvangtZmpQdkhzfH5lkSscSCyS8pg_RWH1vCk.woff2)
+    format("woff2");
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
+    U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cairo/v28/SLXVc1nY6HkvangtZmpQdkhzfH5lkSscRiyS8pg_RWH1.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* arabic */
+@font-face {
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cairo/v28/SLXVc1nY6HkvangtZmpQdkhzfH5lkSscQyyS8pg_RWH1vCk.woff2)
+    format("woff2");
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0898-08E1,
+    U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF,
+    U+FE70-FE74, U+FE76-FEFC;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cairo/v28/SLXVc1nY6HkvangtZmpQdkhzfH5lkSscSCyS8pg_RWH1vCk.woff2)
+    format("woff2");
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
+    U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cairo/v28/SLXVc1nY6HkvangtZmpQdkhzfH5lkSscRiyS8pg_RWH1.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* arabic */
+@font-face {
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cairo/v28/SLXVc1nY6HkvangtZmpQdkhzfH5lkSscQyyS8pg_RWH1vCk.woff2)
+    format("woff2");
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0898-08E1,
+    U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF,
+    U+FE70-FE74, U+FE76-FEFC;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cairo/v28/SLXVc1nY6HkvangtZmpQdkhzfH5lkSscSCyS8pg_RWH1vCk.woff2)
+    format("woff2");
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
+    U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cairo/v28/SLXVc1nY6HkvangtZmpQdkhzfH5lkSscRiyS8pg_RWH1.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+*,
+body,
+html {
+  font-family: "Cairo" !important;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  /* background: linear-gradient(42deg,rgba(137,120,95,.533) 0%,rgba(253,251,240,.229) 100%); */
+  /* direction: rtl !important; */
+}
+
+body::-webkit-scrollbar {
+  width: 2px;
+}
+body::-webkit-scrollbar-track {
+  /* background: linear-gradient(42deg,rgba(137,120,95,.533) 0%,rgba(253,251,240,.229) 100%); */
+}
+body::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.scroll_main::-webkit-scrollbar {
+  width: 1px;
+}
+.scroll_main::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body {
+  background-image: url("../public/images/Home.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  width: 100%;
+  background-position: bottom;
+  direction: rtl;
+}
+.rtl-33gw4 {
+  /* height: 85vh; */
+}
+
+.mySwiper .swiper-backface-hidden .swiper-slide p {
+  font-size: 18px;
+}
+
+.mySwiper .swiper-slide-thumb-active p {
+  color: #5a4d36;
+  color: #5a4d36;
+  opacity: 1;
+  font-size: 18px;
+  font-weight: 700;
+  border: 0;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 25px;
+  height: 2px;
+  background-color: #5a4d36;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.change .bar1 {
+  transform: translate(0, 8px) rotate(45deg);
+}
+.change .bar2 {
+  opacity: 0;
+}
+.change .bar3 {
+  transform: translate(0, -8px) rotate(-45deg);
+}
+
+.text1 {
+  -webkit-animation: fade 8s infinite;
+  animation: fade 8s infinite;
+}
+.text2 {
+  -webkit-animation: fadetwo 8s infinite;
+  animation: fadetwo 8s infinite;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  40% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadetwo {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  90% {
+    opacity: 1;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+}
+.navbar .rtl-6hp17o-MuiList-root-MuiMenu-list {
+  background: #5a4d3699;
+  padding: 10px;
+  border-radius: 1rem;
+}
+
+.Service {
+  box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+}
+.rtl-1anqmj6-MuiPopper-root-MuiPickersPopper-root {
+  z-index: 998 !important;
+}
+
+.main_shadow {
+  box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.1);
+}
+div:where(.swal2-container) {
+  z-index: 998 !important;
+}
+
+.MuiBox-root,
+.MuiModal-root {
+  z-index: 998 !important;
+}
+.buVxNE {
+  flex-direction: row-reverse;
+}
+.lhynAg {
+  border-color: rgb(115 105 88);
+}
+
+.MuiStepConnector-root .MuiStepConnector-line {
+  border-color: #9f9685 !important;
+  border-width: 1px !important;
+}
+.MuiStepLabel-iconContainer .MuiBox-root {
+  width: 40px;
+  height: 40px;
+  border-width: 1px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #9f9685;
+  background-color: white;
+}
+.MuiStepper-alternativeLabel .MuiStepConnector-root {
+  top: 20px !important;
+}
+.MuiStepConnector-root.MuiStepConnector-horizontal.MuiStepConnector-alternativeLabel {
+  right: calc(-50% + 20px) !important;
+  left: calc(50% + 20px) !important;
+}
+.MuiStepLabel-iconContainer.Mui-completed svg {
+  color: #967860 !important;
+  font-size: 40px;
+}
+
+.rtl-191xktt {
+  box-shadow: none;
+  backdrop-filter: initial;
+}
+.swiper-wrapper {
+  text-align: center !important;
+}
+.main_card {
+  border-radius: 10px;
+  background: linear-gradient(
+    180deg,
+    rgba(165, 155, 137, 0.8) 0%,
+    rgba(165, 155, 137, 0.2) 100%
+  );
+  box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+}
+.MuiButtonBase-root.MuiTab-root {
+  border-radius: 5px 5px 0px 0px;
+  border: 1px solid #cab272 !important;
+  color: #cab272 !important ;
+  font-size: 14px;
+}
+.MuiButtonBase-root.MuiTab-root.Mui-selected {
+  background: #cab272 !important;
+  color: white !important;
+}
+.MuiTabs-indicator {
+  background-color: transparent !important;
+}
+/* .MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters.MuiListItemButton-root.MuiListItemButton-gutters.active
+{
+  background:  #CAB272 !important;
+  color: white !important;
+}
+
+.customizer-toggler.MuiBox-root{
+  background:  #CAB272 !important;
+  color: white !important;
+} */
+
+.react-tel-input {
+  direction: ltr !important;
+}
+.react-tel-input .form-control {
+  font: inherit;
+  letter-spacing: inherit;
+  color: currentColor;
+  border: 0;
+  box-sizing: content-box;
+  background: none;
+  height: 1.4375em;
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  min-width: 0;
+  width: 75% !important;
+  animation-name: mui-auto-fill-cancel;
+  animation-duration: 10ms;
+  /* padding: 16.5px 14px; */
+  padding-right: 50px !important;
+  border-radius: 9px;
+  padding: 9px;
+}
+.react-tel-input .selected-flag {
+  outline: none;
+  position: relative;
+  width: 46px !important;
+  height: 100%;
+  padding: 0 0 0 8px;
+  border-radius: 3px 0 0 3px;
+}
+
+.react-tel-input .selected-flag .flag {
+  position: absolute;
+  top: 50%;
+  left: 18px !important;
+  transform: scale(1.4);
+  margin-top: -5px;
+}
+.react-tel-input .selected-flag .arrow {
+  position: relative;
+  top: 50%;
+  margin-top: -2px;
+  left: -8px !important;
+  width: 0;
+  height: 0;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-top: 4px solid #555;
+}
+
+.MuiTypography-root.MuiTypography-body1.MuiFormControlLabel-label {
+  width: 100% !important;
+}
+
+.MuiButtonBase-root.MuiRadio-root {
+  display: none;
+}
+
+.MuiBox-root {
+  /* padding: 0 !important; ; */
+  backdrop-filter: inherit !important;
+}
+#simple-menu::before {
+  content: "";
+  position: absolute;
+  /* background-color: red; */
+  border-color: transparent transparent #e6e2de  transparent;
+  border-width: 10px;
+  /* padding: 10px; */
+  left: 11px;
+  top: -20px;
+}
